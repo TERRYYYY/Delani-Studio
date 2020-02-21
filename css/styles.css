@@ -38,6 +38,11 @@ h4{
     text-align: center;
     background-size: cover;
 }
+.contacts{
+    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    height: 100vh;
+}
     
 
 
