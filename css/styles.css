@@ -66,18 +66,27 @@ h6{
 #yourname,#youremail,#subject{
     background: transparent;
 }
-.content{
-    display: none;
+.content {
     position: absolute;
-    top: 5%;
-    height:50% ;
-    width:60% ;
-    left: 15%;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+    height: 70%;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-    justify-content: center;
-    background-color: transparent;
-    color: wheat;
-    border:2px solid white ;
+}
+.content_show {
+    visibility: visible;
+    opacity: 1;
+    background-color:grey;
+
 }
 .footer{
     text-align: center;
