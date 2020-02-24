@@ -43,8 +43,31 @@ h4{
     background-size: cover;
     height: 100vh;
 }
-    
+h6{
+    font-size: 15px;
+}
+.design{
+    text-align: center;
+}
+.develop{
+    text-align: center;
+}
+.product{
+    text-align: center;
+}
+.image1:hover .overlay{
+    opacity: 1;
+    transform:scale(1.2);
+}
+.contacts{
+    text-align: center;
+}
 
+.subjects{
+    margin-left: 40%;
+}
 
-
+#yourname,#youremail,#subject{
+    background: transparent;
+}
 
