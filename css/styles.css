@@ -55,10 +55,6 @@ h6{
 .product{
     text-align: center;
 }
-.image1:hover .overlay{
-    opacity: 1;
-    transform:scale(1.2);
-}
 .contacts{
     text-align: center;
 }
@@ -84,6 +80,9 @@ h6{
     border:2px solid white ;
 }
 .footer{
+    text-align: center;
+}
+.downpage{
     text-align: center;
 }
 
