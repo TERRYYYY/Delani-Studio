@@ -1,21 +1,23 @@
 $(document).ready(function(){
-    $(".design").click(function(){
+    $(".designicon").click(function(){
         $("p").toggle();
-        $("h6").toggle();
 
     });
 
-    $(".develop").click(function(){
+    $(".developicon").click(function(){
         $("p").toggle();
-        $(".developicon").toggle();
     });
 
-    $(".product").click(function(){
-        $("h6").toggle();
+    $(".producticon").click(function(){
+        $("p").toggle();
     });
 
     $(".img-fluid").hover(function(){
         $(".content").toggle();
+    })
+    $(".myportfolio").hover(function(){
+        $(this).find("div").toggleClass ("content_show");
+
     })
 });
 
