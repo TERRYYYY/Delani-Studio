@@ -18,3 +18,10 @@ $(document).ready(function(){
         $(".content").toggle();
     })
 });
+
+$(document).ready(function(){
+    document.getElementById("contactus").addEventListener("submit",popUp);
+    function popUp(){
+        alert("We have received your message. Thank you")
+    }
+});    
