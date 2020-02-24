@@ -1,16 +1,19 @@
 $(document).ready(function(){
-    $(".designicon").click(function(){
-        $("p").toggle();
-
+    $(".col-md-4").click(function(){
+     $(".imag").toggle();
+     $("#para").toggle();
     });
-
-    $(".developicon").click(function(){
-        $("p").toggle();
+    $(".col-md-4").click(function(){
+        $(".imag").toggle();
+        $("#para").toggle();
     });
-
-    $(".producticon").click(function(){
-        $("p").toggle();
+       $(".col-md-4").click(function(){
+        $(".imag").toggle();
+        $("#para").toggle();
     });
+    
+
+});
 
     $(".img-fluid").hover(function(){
         $(".content").toggle();
@@ -19,7 +22,7 @@ $(document).ready(function(){
         $(this).find("div").toggleClass ("content_show");
 
     })
-});
+
 
 $(document).ready(function(){
     document.getElementById("contactus").addEventListener("submit",popUp);
@@ -27,3 +30,4 @@ $(document).ready(function(){
         alert("We have received your message. Thank you")
     }
 });    
+
