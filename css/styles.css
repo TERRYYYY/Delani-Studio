@@ -84,7 +84,6 @@ h6{
     border:2px solid white ;
 }
 .footer{
-    display: inline-block;
-    justify-content: center;
+    text-align: center;
 }
 
