@@ -1,12 +1,14 @@
 #####DELANI STUDIO
 ###Decription
--This project is to show a website about Delani Studio. It has a clear description of our everything about us , our services and our portfolio.
+-Delani Studio is a studio that provides Software related services. It has a team of qualified software engineers who develop and design high quality software, web and mobile applications. They also serve in projects management
 
 ###Technologies used
 -HTML -CSS -Bootstrap -JAVASCRIPT -JQUERY
 
 ###BDD
-In case you need to send a message to us, you write your details and from there you will get an alert message that we have gotten your details and will get back to you.
+Input In the webpage, there is a form to fill, once there may be a webpage visitor who wants to release a message to Delani Studio. It is required to fill the names (Example: Odette Ahishakiye) Fill the valid email address (Example: email@Example.com) Type the message in the provided field for message, and finally click on Send email button.
+
+Output: The user will be alerted whether, either the message has been received or the input is invalid
 
 ###Support & Contact
 -Incase of any Emergency you can contact 07123456789 -Email: kariuki.terry11@gmail.com -Live link : https://terryyyy.github.io/IP3/
