@@ -70,4 +70,17 @@ h6{
 #yourname,#youremail,#subject{
     background: transparent;
 }
+.content{
+    display: none;
+    position: absolute;
+    top: 5%;
+    height:50% ;
+    width:60% ;
+    left: 15%;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    color: wheat;
+    border:2px solid white ;
+}
 
