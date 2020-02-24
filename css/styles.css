@@ -83,4 +83,8 @@ h6{
     color: wheat;
     border:2px solid white ;
 }
+.footer{
+    display: inline-block;
+    justify-content: center;
+}
 
